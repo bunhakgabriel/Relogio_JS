@@ -1,0 +1,40 @@
+body{
+    font-family: normal Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg, #003865, #D4F6CC, #3CCF4E);
+    background-size: 200% 200%;
+}
+
+header h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 5em;
+    letter-spacing: 17px;
+}
+
+section{
+    box-shadow: 1px 1px 5px black;
+    padding: 30px;
+    width: 750px;
+    margin: 10px auto;
+    display:flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+div.bloco{
+    box-shadow: 1px 1px 5px black;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div#horas , div#minutos, div#segundos{
+    text-align: center;
+    font-size: 8em;
+}
+
+h2#hr{
+    text-align: center;
+}
