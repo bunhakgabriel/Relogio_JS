@@ -38,3 +38,48 @@ div#horas , div#minutos, div#segundos{
 h2#hr{
     text-align: center;
 }
+
+@media(min-width: 600px) and (max-width: 849px){
+    
+    header h1{
+        font-size: 3em;
+    }
+
+    section{
+        width: 90%;
+    }
+
+    div.bloco{
+        width: 29%;
+    }
+
+    div#horas , div#minutos, div#segundos{
+        font-size: 6em;
+    }
+
+}
+
+@media(max-width: 599px){
+
+    header h1{
+        font-size: 2em;
+        letter-spacing: 0px;
+        margin-top: 20px;
+    }
+
+    section{
+        display: block;
+        width: 85%;
+        padding: 10px;
+    }
+
+    div.bloco{
+        width: 200px;
+        height: 200px;
+        margin: 20px auto;
+    }
+
+    div#horas , div#minutos, div#segundos{
+        font-size: 4em;
+    }
+}
